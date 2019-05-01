@@ -19,11 +19,11 @@ room_message
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees).each do |badge|
+  batch_badge_creator(attendees).each do |badge|
     puts badge
   end
 
-  puts assign_rooms(attendees).each do |badge|
+  assign_rooms(attendees).each do |badge|
     puts badge
   end
 end
