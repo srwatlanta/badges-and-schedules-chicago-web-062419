@@ -3,10 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (names)
-  names.each do | namemsg |
-    badge_maker(namemsg)
+  name_message = []
+  names.each do | name |
+    name_message << badge_maker(namemsg)
   end
-  namemsg
+  name_message
 end
 
 def assign_rooms
@@ -16,3 +17,10 @@ end
 def printer
 
 end
+
+
+arr = []
+array.each do |i|
+  arr << i ** 2
+end
+arr
