@@ -12,7 +12,7 @@ end
 
 def assign_rooms (names)
   room_message = []
-  names.each_with_index do |name, room|
+  names.each_with_index do |name, index|
   room_message << "Hello, #{name} You'll be assigned to room #{index}!"
 end
 room_message
