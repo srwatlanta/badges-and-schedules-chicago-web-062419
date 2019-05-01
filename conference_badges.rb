@@ -26,4 +26,4 @@ end
 names = [edgar, jogn, yellow]
 
 
-printer ()
+printer (names)
