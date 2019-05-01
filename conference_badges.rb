@@ -17,10 +17,3 @@ end
 def printer
 
 end
-
-
-arr = []
-array.each do |i|
-  arr << i ** 2
-end
-arr
