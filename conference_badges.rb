@@ -5,7 +5,7 @@ end
 def batch_badge_creator (names)
   name_message = []
   names.each do | name |
-    name_message << badge_maker(namemsg)
+    name_message << badge_maker(name)
   end
   name_message
 end
