@@ -23,5 +23,7 @@ def printer(attendees)
   puts assign_rooms(attendees)
 end
 
+names = [edgar, jogn, yellow]
 
-printer
+
+printer ()
