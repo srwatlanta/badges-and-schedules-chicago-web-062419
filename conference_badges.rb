@@ -4,14 +4,18 @@ end
 
 def batch_badge_creator (names)
   name_message = []
-  names.each do | name |
+  names.each do |name|
     name_message << badge_maker(name)
   end
   name_message
 end
 
-def assign_rooms
-
+def assign_rooms (names)
+  room_message = []
+  names.each_with_index do |name, room|
+  room_message << "Hello, #{name} You'll be assigned to room #{index}!"
+end
+room_message
 end
 
 def printer
