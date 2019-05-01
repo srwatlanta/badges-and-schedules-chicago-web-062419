@@ -22,8 +22,3 @@ def printer(attendees)
   puts batch_badge_creator(attendees)
   puts assign_rooms(attendees)
 end
-
-names = ["edgar", "jogn", "yellow"]
-
-
-printer (names[1])
